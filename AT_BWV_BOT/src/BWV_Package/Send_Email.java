@@ -36,7 +36,7 @@ public class Send_Email extends Get_token{
 		   DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
 		 //  System.out.println("Today's date is "+dateFormat.format(cal.getTime()));
 		    DT_Today=dateFormat.format(cal.getTime());
-
+ 
 		   cal.add(Calendar.DATE, -1);
 		 //  System.out.println("Yesterday's date was "+dateFormat.format(cal.getTime())); 
 		    DT_Yesterday=dateFormat.format(cal.getTime()); 
