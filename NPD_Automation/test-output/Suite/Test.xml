@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="CBELAP-054" name="Browser.Login" tests="19" failures="0" timestamp="22 Apr 2019 09:27:50 GMT" time="0.005" errors="0">
+  <testcase name="@BeforeSuite check_browser" time="0.0" classname="Job_Menus.job_list_Add">
+    <failure type="java.lang.NoSuchMethodError" message="com.google.common.collect.ImmutableSortedSet.toImmutableSortedSet(Ljava/util/Comparator;)Ljava/util/stream/Collector;">
+      <![CDATA[java.lang.NoSuchMethodError: com.google.common.collect.ImmutableSortedSet.toImmutableSortedSet(Ljava/util/Comparator;)Ljava/util/stream/Collector;
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$3(NewSessionPayload.java:185)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:201)
+	at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:149)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:100)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:93)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at Browser.Browser_open.check_browser(Browser_open.java:102)
+... Removed 17 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="NPD_Login" time="0.0" classname="Browser.Login">
+    <skipped/>
+  </testcase>
+  <testcase name="selectAssettypemenu" time="0.0" classname="NPD_Master_Menus.Master_Asset_Type">
+    <skipped/>
+  </testcase>
+  <testcase name="Addnewassettype" time="0.0" classname="NPD_Master_Menus.Master_Asset_Type">
+    <skipped/>
+  </testcase>
+  <testcase name="Editassettype" time="0.0" classname="NPD_Master_Menus.Master_Asset_Type">
+    <skipped/>
+  </testcase>
+  <testcase name="DeleteAssettype" time="0.0" classname="NPD_Master_Menus.Master_Asset_Type">
+    <skipped/>
+  </testcase>
+  <testcase name="OpenAssetmenu" time="0.0" classname="NPD_Master_Menus.Master_Asset">
+    <skipped/>
+  </testcase>
+  <testcase name="Asset_Insert" time="0.0" classname="NPD_Master_Menus.Master_Asset">
+    <skipped/>
+  </testcase>
+  <testcase name="Asset_Edit" time="0.0" classname="NPD_Master_Menus.Master_Asset">
+    <skipped/>
+  </testcase>
+  <testcase name="Asset_delete" time="0.0" classname="NPD_Master_Menus.Master_Asset">
+    <skipped/>
+  </testcase>
+  <testcase name="Open_ser_item_menu" time="0.0" classname="NPD_Master_Menus.Master_Ser_item_category">
+    <skipped/>
+  </testcase>
+  <testcase name="Add_new_ser_item_category" time="0.001" classname="NPD_Master_Menus.Master_Ser_item_category">
+    <skipped/>
+  </testcase>
+  <testcase name="Edit_new_ser_item_category" time="0.0" classname="NPD_Master_Menus.Master_Ser_item_category">
+    <skipped/>
+  </testcase>
+  <testcase name="Delete_new_ser_item_category" time="0.0" classname="NPD_Master_Menus.Master_Ser_item_category">
+    <skipped/>
+  </testcase>
+  <testcase name="Open_ser_item_menu" time="0.0" classname="NPD_Master_Menus.Master_Service_Item">
+    <skipped/>
+  </testcase>
+  <testcase name="Add_new_ser_item" time="0.0" classname="NPD_Master_Menus.Master_Service_Item">
+    <skipped/>
+  </testcase>
+  <testcase name="Edit_new_ser_item" time="0.0" classname="NPD_Master_Menus.Master_Service_Item">
+    <skipped/>
+  </testcase>
+  <testcase name="selectJoblist_menu" time="0.0" classname="Job_Menus.job_list_Add">
+    <skipped/>
+  </testcase>
+  <testcase name="Edit_job_list" time="0.0" classname="Job_Menus.Job_list_Edit">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" time="0.0" classname="Browser.Logout">
+    <skipped/>
+  </testcase>
+</testsuite>

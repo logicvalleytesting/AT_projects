@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  GEO4S</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GEO4S</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 08 08:15:31 BST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>210 seconds (210972 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Service_Item.Add_new_ser_item()'><b>Add_new_ser_item</b><br>Test class: NPD_Master_Menus.Master_Service_Item<br>Test method: Add service item menu</td>
+<td></td>
+<td>5</td>
+<td>NPD_Master_Menus.Master_Service_Item@34ce8af7</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Ser_item_category.Add_new_ser_item_category()'><b>Add_new_ser_item_category</b><br>Test class: NPD_Master_Menus.Master_Ser_item_category<br>Test method: Add new service item category</td>
+<td></td>
+<td>2</td>
+<td>NPD_Master_Menus.Master_Ser_item_category@7a79be86</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset_Type.Addnewassettype()'><b>Addnewassettype</b><br>Test class: NPD_Master_Menus.Master_Asset_Type<br>Test method: Add new asset type</td>
+<td></td>
+<td>1</td>
+<td>NPD_Master_Menus.Master_Asset_Type@1e643faf</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset.Asset_Edit()'><b>Asset_Edit</b><br>Test class: NPD_Master_Menus.Master_Asset<br>Test method: Edit the new asset</td>
+<td></td>
+<td>11</td>
+<td>NPD_Master_Menus.Master_Asset@6e8dacdf</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset.Asset_Insert()'><b>Asset_Insert</b><br>Test class: NPD_Master_Menus.Master_Asset<br>Test method: Adding the new asset</td>
+<td></td>
+<td>9</td>
+<td>NPD_Master_Menus.Master_Asset@6e8dacdf</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset.Asset_delete()'><b>Asset_delete</b><br>Test class: NPD_Master_Menus.Master_Asset<br>Test method: Delete the new asset</td>
+<td></td>
+<td>12</td>
+<td>NPD_Master_Menus.Master_Asset@6e8dacdf</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset_Type.DeleteAssettype()'><b>DeleteAssettype</b><br>Test class: NPD_Master_Menus.Master_Asset_Type<br>Test method: Delete Asset</td>
+<td></td>
+<td>2</td>
+<td>NPD_Master_Menus.Master_Asset_Type@1e643faf</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Service_Item.Delete_new_ser_item()'><b>Delete_new_ser_item</b><br>Test class: NPD_Master_Menus.Master_Service_Item<br>Test method: Delete service item menu</td>
+<td></td>
+<td>1</td>
+<td>NPD_Master_Menus.Master_Service_Item@34ce8af7</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Ser_item_category.Delete_new_ser_item_category()'><b>Delete_new_ser_item_category</b><br>Test class: NPD_Master_Menus.Master_Ser_item_category<br>Test method: Delete new service item category menu</td>
+<td></td>
+<td>8</td>
+<td>NPD_Master_Menus.Master_Ser_item_category@7a79be86</td></tr>
+<tr>
+<td title='Customer_menus.Customer.Deletenewcustomer()'><b>Deletenewcustomer</b><br>Test class: Customer_menus.Customer</td>
+<td></td>
+<td>1</td>
+<td>Customer_menus.Customer@3f3afe78</td></tr>
+<tr>
+<td title='Job_Menus.Job_list_Edit.Edit_job_list()'><b>Edit_job_list</b><br>Test class: Job_Menus.Job_list_Edit<br>Test method: Select job list menu</td>
+<td></td>
+<td>72</td>
+<td>Job_Menus.Job_list_Edit@880ec60</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Service_Item.Edit_new_ser_item()'><b>Edit_new_ser_item</b><br>Test class: NPD_Master_Menus.Master_Service_Item<br>Test method: Edit service item menu</td>
+<td></td>
+<td>8</td>
+<td>NPD_Master_Menus.Master_Service_Item@34ce8af7</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Ser_item_category.Edit_new_ser_item_category()'><b>Edit_new_ser_item_category</b><br>Test class: NPD_Master_Menus.Master_Ser_item_category<br>Test method: Edit new service item category menu</td>
+<td></td>
+<td>4</td>
+<td>NPD_Master_Menus.Master_Ser_item_category@7a79be86</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset_Type.Editassettype()'><b>Editassettype</b><br>Test class: NPD_Master_Menus.Master_Asset_Type<br>Test method: Edit the new asset</td>
+<td></td>
+<td>2</td>
+<td>NPD_Master_Menus.Master_Asset_Type@1e643faf</td></tr>
+<tr>
+<td title='Customer_menus.Customer.Editnewcustomer()'><b>Editnewcustomer</b><br>Test class: Customer_menus.Customer</td>
+<td></td>
+<td>4</td>
+<td>Customer_menus.Customer@3f3afe78</td></tr>
+<tr>
+<td title='Browser.Login.NPD_Login()'><b>NPD_Login</b><br>Test class: Browser.Login</td>
+<td></td>
+<td>16</td>
+<td>Browser.Login@3b6eb2ec</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset.OpenAssetmenu()'><b>OpenAssetmenu</b><br>Test class: NPD_Master_Menus.Master_Asset<br>Test method: Select Asset menu</td>
+<td></td>
+<td>10</td>
+<td>NPD_Master_Menus.Master_Asset@6e8dacdf</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Ser_item_category.Open_ser_item_menu()'><b>Open_ser_item_menu</b><br>Test class: NPD_Master_Menus.Master_Ser_item_category<br>Test method: Select service item category menu</td>
+<td></td>
+<td>5</td>
+<td>NPD_Master_Menus.Master_Ser_item_category@7a79be86</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Service_Item.Open_ser_item_menu()'><b>Open_ser_item_menu</b><br>Test class: NPD_Master_Menus.Master_Service_Item<br>Test method: Select service item menu</td>
+<td></td>
+<td>2</td>
+<td>NPD_Master_Menus.Master_Service_Item@34ce8af7</td></tr>
+<tr>
+<td title='Customer_menus.Customer.addnewcustomer()'><b>addnewcustomer</b><br>Test class: Customer_menus.Customer</td>
+<td></td>
+<td>10</td>
+<td>Customer_menus.Customer@3f3afe78</td></tr>
+<tr>
+<td title='Customer_menus.Customer.customer_menu()'><b>customer_menu</b><br>Test class: Customer_menus.Customer</td>
+<td></td>
+<td>5</td>
+<td>Customer_menus.Customer@3f3afe78</td></tr>
+<tr>
+<td title='Browser.Logout.logout()'><b>logout</b><br>Test class: Browser.Logout<br>Test method: Select logout</td>
+<td></td>
+<td>1</td>
+<td>Browser.Logout@7f63425a</td></tr>
+<tr>
+<td title='NPD_Master_Menus.Master_Asset_Type.selectAssettypemenu()'><b>selectAssettypemenu</b><br>Test class: NPD_Master_Menus.Master_Asset_Type<br>Test method: Select Asset type menu</td>
+<td></td>
+<td>1</td>
+<td>NPD_Master_Menus.Master_Asset_Type@1e643faf</td></tr>
+<tr>
+<td title='Job_Menus.job_list_Add.selectJoblist_menu()'><b>selectJoblist_menu</b><br>Test class: Job_Menus.job_list_Add<br>Test method: Select job list menu</td>
+<td></td>
+<td>5</td>
+<td>Job_Menus.job_list_Add@b684286</td></tr>
+</table><p>
+</body>
+</html>

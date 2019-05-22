@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="Job_Menus.job_list_Add">
+        <methods>
+          <include name="selectJoblist_menu"/>
+          <include name="check_browser"/>
+        </methods>
+      </class>
+      <class name="NPD_Master_Menus.Master_Asset_Type">
+        <methods>
+          <include name="Editassettype"/>
+          <include name="DeleteAssettype"/>
+          <include name="Addnewassettype"/>
+          <include name="selectAssettypemenu"/>
+        </methods>
+      </class>
+      <class name="Browser.Logout">
+        <methods>
+          <include name="logout"/>
+        </methods>
+      </class>
+      <class name="NPD_Master_Menus.Master_Ser_item_category">
+        <methods>
+          <include name="Add_new_ser_item_category"/>
+          <include name="Open_ser_item_menu"/>
+          <include name="Delete_new_ser_item_category"/>
+          <include name="Edit_new_ser_item_category"/>
+        </methods>
+      </class>
+      <class name="NPD_Master_Menus.Master_Asset">
+        <methods>
+          <include name="Asset_Edit"/>
+          <include name="OpenAssetmenu"/>
+          <include name="Asset_delete"/>
+          <include name="Asset_Insert"/>
+        </methods>
+      </class>
+      <class name="Browser.Login">
+        <methods>
+          <include name="NPD_Login"/>
+        </methods>
+      </class>
+      <class name="Job_Menus.Job_list_Edit">
+        <methods>
+          <include name="Edit_job_list"/>
+        </methods>
+      </class>
+      <class name="NPD_Master_Menus.Master_Service_Item">
+        <methods>
+          <include name="Edit_new_ser_item"/>
+          <include name="Open_ser_item_menu"/>
+          <include name="Add_new_ser_item"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

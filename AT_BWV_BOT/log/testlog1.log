@@ -8005,3 +8005,33 @@ Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.
 Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
 
 	... 30 more
+2019-05-22 12:57:55,935 [main] INFO BWV_Package.Get_token - =============================================Execution started at20190522_125755====================================================
+2019-05-22 12:57:58,245 [main] INFO BWV_Package.Get_token - 
+Sending 'POST' request to URL : http://192.168.130.185/token
+2019-05-22 12:57:58,245 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 12:57:58,249 [main] INFO BWV_Package.Get_token - Token generated
+2019-05-22 12:57:59,138 [main] INFO BWV_Package.Get_token - 
+Sending 'GET' request to URL : http://192.168.130.185/OptimiseAPIBOT/GetBWVReportBot
+2019-05-22 12:57:59,139 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 12:57:59,140 [main] INFO BWV_Package.Get_token - BWV API values are received
+2019-05-22 12:57:59,394 [main] INFO BWV_Package.Get_token - Total records API values are writed in excel sheet
+2019-05-22 12:57:59,411 [main] INFO BWV_Package.Get_token - BWV-total count officer wise records writed in excel sheet
+2019-05-22 12:57:59,419 [main] INFO BWV_Package.Get_token - BWV-total count records writed in excel sheet
+2019-05-22 12:57:59,426 [main] INFO BWV_Package.Get_token - BWV-total action records writed in excel sheet
+2019-05-22 12:57:59,550 [main] INFO BWV_Package.Get_token - BWV-All files writed in excel sheet.
+2019-05-22 12:58:02,276 [main] INFO BWV_Package.Get_token - =====>>Email Sent<<=====
+2019-05-22 12:59:17,105 [main] INFO BWV_Package.Get_token - =============================================Execution started at20190522_125917====================================================
+2019-05-22 12:59:17,135 [main] INFO BWV_Package.Get_token - 
+Sending 'POST' request to URL : http://192.168.130.185/token
+2019-05-22 12:59:17,135 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 12:59:17,138 [main] INFO BWV_Package.Get_token - Token generated
+2019-05-22 12:59:17,284 [main] INFO BWV_Package.Get_token - 
+Sending 'GET' request to URL : http://192.168.130.185/OptimiseAPIBOT/GetBWVReportBot
+2019-05-22 12:59:17,285 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 12:59:17,289 [main] INFO BWV_Package.Get_token - BWV API values are received
+2019-05-22 12:59:17,564 [main] INFO BWV_Package.Get_token - Total records API values are writed in excel sheet
+2019-05-22 12:59:17,575 [main] INFO BWV_Package.Get_token - BWV-total count officer wise records writed in excel sheet
+2019-05-22 12:59:17,583 [main] INFO BWV_Package.Get_token - BWV-total count records writed in excel sheet
+2019-05-22 12:59:17,590 [main] INFO BWV_Package.Get_token - BWV-total action records writed in excel sheet
+2019-05-22 12:59:17,708 [main] INFO BWV_Package.Get_token - BWV-All files writed in excel sheet.
+2019-05-22 12:59:19,773 [main] INFO BWV_Package.Get_token - =====>>Email Sent<<=====

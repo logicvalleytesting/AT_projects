@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteName" duration-ms="210972" started-at="2019-05-08T07:15:31Z" finished-at="2019-05-08T07:19:02Z">
+    <groups>
+    </groups>
+    <test name="GEO4S" duration-ms="210972" started-at="2019-05-08T07:15:31Z" finished-at="2019-05-08T07:19:02Z">
+      <class name="Customer_menus.Customer">
+        <test-method status="PASS" signature="customer_menu()[pri:20, instance:Customer_menus.Customer@3f3afe78]" name="customer_menu" duration-ms="5499" started-at="2019-05-08T08:18:38Z" finished-at="2019-05-08T08:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_menu -->
+        <test-method status="PASS" signature="addnewcustomer()[pri:21, instance:Customer_menus.Customer@3f3afe78]" name="addnewcustomer" duration-ms="10123" started-at="2019-05-08T08:18:44Z" finished-at="2019-05-08T08:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewcustomer -->
+        <test-method status="PASS" signature="Editnewcustomer()[pri:22, instance:Customer_menus.Customer@3f3afe78]" name="Editnewcustomer" duration-ms="4780" started-at="2019-05-08T08:18:54Z" finished-at="2019-05-08T08:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editnewcustomer -->
+        <test-method status="PASS" signature="Deletenewcustomer()[pri:23, instance:Customer_menus.Customer@3f3afe78]" name="Deletenewcustomer" duration-ms="1875" started-at="2019-05-08T08:18:59Z" finished-at="2019-05-08T08:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deletenewcustomer -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Customer_menus.Customer@3f3afe78]" name="endTest" is-config="true" duration-ms="140" started-at="2019-05-08T08:19:02Z" finished-at="2019-05-08T08:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Browser.Logout@7f63425a]" name="endTest" is-config="true" duration-ms="32" started-at="2019-05-08T08:19:02Z" finished-at="2019-05-08T08:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:NPD_Master_Menus.Master_Service_Item@34ce8af7]" name="endTest" is-config="true" duration-ms="31" started-at="2019-05-08T08:19:02Z" finished-at="2019-05-08T08:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Customer_menus.Customer -->
+      <class name="NPD_Master_Menus.Master_Ser_item_category">
+        <test-method status="PASS" signature="Open_ser_item_menu()[pri:9, instance:NPD_Master_Menus.Master_Ser_item_category@7a79be86]" name="Open_ser_item_menu" duration-ms="5561" started-at="2019-05-08T08:16:40Z" description="Select service item category menu" finished-at="2019-05-08T08:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_ser_item_menu -->
+        <test-method status="PASS" signature="Add_new_ser_item_category()[pri:10, instance:NPD_Master_Menus.Master_Ser_item_category@7a79be86]" name="Add_new_ser_item_category" duration-ms="2422" started-at="2019-05-08T08:16:45Z" description="Add new service item category" finished-at="2019-05-08T08:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_new_ser_item_category -->
+        <test-method status="PASS" signature="Edit_new_ser_item_category()[pri:11, instance:NPD_Master_Menus.Master_Ser_item_category@7a79be86]" name="Edit_new_ser_item_category" duration-ms="4436" started-at="2019-05-08T08:16:48Z" description="Edit new service item category menu" finished-at="2019-05-08T08:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_new_ser_item_category -->
+        <test-method status="PASS" signature="Delete_new_ser_item_category()[pri:12, instance:NPD_Master_Menus.Master_Ser_item_category@7a79be86]" name="Delete_new_ser_item_category" duration-ms="8826" started-at="2019-05-08T08:16:52Z" description="Delete new service item category menu" finished-at="2019-05-08T08:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_new_ser_item_category -->
+      </class> <!-- NPD_Master_Menus.Master_Ser_item_category -->
+      <class name="NPD_Master_Menus.Master_Asset">
+        <test-method status="PASS" signature="OpenAssetmenu()[pri:5, instance:NPD_Master_Menus.Master_Asset@6e8dacdf]" name="OpenAssetmenu" duration-ms="10794" started-at="2019-05-08T08:15:56Z" description="Select Asset menu" finished-at="2019-05-08T08:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAssetmenu -->
+        <test-method status="PASS" signature="Asset_Insert()[pri:6, instance:NPD_Master_Menus.Master_Asset@6e8dacdf]" name="Asset_Insert" duration-ms="9800" started-at="2019-05-08T08:16:06Z" description="Adding the new asset" finished-at="2019-05-08T08:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asset_Insert -->
+        <test-method status="PASS" signature="Asset_Edit()[pri:7, instance:NPD_Master_Menus.Master_Asset@6e8dacdf]" name="Asset_Edit" duration-ms="11375" started-at="2019-05-08T08:16:16Z" description="Edit the new asset" finished-at="2019-05-08T08:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asset_Edit -->
+        <test-method status="PASS" signature="Asset_delete()[pri:8, instance:NPD_Master_Menus.Master_Asset@6e8dacdf]" name="Asset_delete" duration-ms="12154" started-at="2019-05-08T08:16:28Z" description="Delete the new asset" finished-at="2019-05-08T08:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asset_delete -->
+      </class> <!-- NPD_Master_Menus.Master_Asset -->
+      <class name="Browser.Browser_open">
+        <test-method status="PASS" signature="check_browser()[pri:0, instance:Browser.Browser_open@6a5fc7f7]" name="check_browser" is-config="true" duration-ms="7219" started-at="2019-05-08T08:15:24Z" finished-at="2019-05-08T08:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_browser -->
+      </class> <!-- Browser.Browser_open -->
+      <class name="Job_Menus.Job_list_Edit">
+        <test-method status="PASS" signature="Edit_job_list()[pri:19, instance:Job_Menus.Job_list_Edit@880ec60]" name="Edit_job_list" duration-ms="72917" started-at="2019-05-08T08:17:25Z" description="Select job list menu" finished-at="2019-05-08T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_job_list -->
+      </class> <!-- Job_Menus.Job_list_Edit -->
+      <class name="Browser.Logout">
+        <test-method status="PASS" signature="logout()[pri:24, instance:Browser.Logout@7f63425a]" name="logout" duration-ms="1734" started-at="2019-05-08T08:19:00Z" description="Select logout" finished-at="2019-05-08T08:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Browser.Logout -->
+      <class name="NPD_Master_Menus.Master_Service_Item">
+        <test-method status="PASS" signature="Open_ser_item_menu()[pri:13, instance:NPD_Master_Menus.Master_Service_Item@34ce8af7]" name="Open_ser_item_menu" duration-ms="2640" started-at="2019-05-08T08:17:01Z" description="Select service item menu" finished-at="2019-05-08T08:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_ser_item_menu -->
+        <test-method status="PASS" signature="Add_new_ser_item()[pri:14, instance:NPD_Master_Menus.Master_Service_Item@34ce8af7]" name="Add_new_ser_item" duration-ms="5718" started-at="2019-05-08T08:17:04Z" description="Add service item menu" finished-at="2019-05-08T08:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_new_ser_item -->
+        <test-method status="PASS" signature="Edit_new_ser_item()[pri:15, instance:NPD_Master_Menus.Master_Service_Item@34ce8af7]" name="Edit_new_ser_item" duration-ms="8467" started-at="2019-05-08T08:17:09Z" description="Edit service item menu" finished-at="2019-05-08T08:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_new_ser_item -->
+        <test-method status="PASS" signature="Delete_new_ser_item()[pri:16, instance:NPD_Master_Menus.Master_Service_Item@34ce8af7]" name="Delete_new_ser_item" duration-ms="1859" started-at="2019-05-08T08:17:18Z" description="Delete service item menu" finished-at="2019-05-08T08:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_new_ser_item -->
+      </class> <!-- NPD_Master_Menus.Master_Service_Item -->
+      <class name="Job_Menus.job_list_Add">
+        <test-method status="PASS" signature="selectJoblist_menu()[pri:17, instance:Job_Menus.job_list_Add@b684286]" name="selectJoblist_menu" duration-ms="5601" started-at="2019-05-08T08:17:20Z" description="Select job list menu" finished-at="2019-05-08T08:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectJoblist_menu -->
+      </class> <!-- Job_Menus.job_list_Add -->
+      <class name="Browser.Login">
+        <test-method status="PASS" signature="NPD_Login()[pri:0, instance:Browser.Login@3b6eb2ec]" name="NPD_Login" duration-ms="16138" started-at="2019-05-08T08:15:31Z" finished-at="2019-05-08T08:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NPD_Login -->
+      </class> <!-- Browser.Login -->
+      <class name="NPD_Master_Menus.Master_Asset_Type">
+        <test-method status="PASS" signature="selectAssettypemenu()[pri:1, instance:NPD_Master_Menus.Master_Asset_Type@1e643faf]" name="selectAssettypemenu" duration-ms="1344" started-at="2019-05-08T08:15:48Z" description="Select Asset type menu" finished-at="2019-05-08T08:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAssettypemenu -->
+        <test-method status="PASS" signature="Addnewassettype()[pri:2, instance:NPD_Master_Menus.Master_Asset_Type@1e643faf]" name="Addnewassettype" duration-ms="1952" started-at="2019-05-08T08:15:49Z" description="Add new asset type" finished-at="2019-05-08T08:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addnewassettype -->
+        <test-method status="PASS" signature="Editassettype()[pri:3, instance:NPD_Master_Menus.Master_Asset_Type@1e643faf]" name="Editassettype" duration-ms="2500" started-at="2019-05-08T08:15:51Z" description="Edit the new asset" finished-at="2019-05-08T08:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editassettype -->
+        <test-method status="PASS" signature="DeleteAssettype()[pri:4, instance:NPD_Master_Menus.Master_Asset_Type@1e643faf]" name="DeleteAssettype" duration-ms="2234" started-at="2019-05-08T08:15:53Z" description="Delete Asset" finished-at="2019-05-08T08:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAssettype -->
+      </class> <!-- NPD_Master_Menus.Master_Asset_Type -->
+    </test> <!-- GEO4S -->
+  </suite> <!-- SuiteName -->
+</testng-results>

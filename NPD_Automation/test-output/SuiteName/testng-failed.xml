@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteName]">
+  <test name="GEO4S(failed)">
+    <classes>
+      <class name="NPD_Master_Menus.Master_Service_Item">
+        <methods>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- NPD_Master_Menus.Master_Service_Item -->
+      <class name="Browser.Logout">
+        <methods>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- Browser.Logout -->
+      <class name="Customer_menus.Customer">
+        <methods>
+          <include name="Deletenewcustomer"/>
+          <include name="Editnewcustomer"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- Customer_menus.Customer -->
+      <class name="Browser.Browser_open">
+        <methods>
+          <include name="check_browser"/>
+        </methods>
+      </class> <!-- Browser.Browser_open -->
+    </classes>
+  </test> <!-- GEO4S(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteName">
+              <span class="suite-name border-passed">SuiteName</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteName">
+                    <span>E:\Testing Team\Automation_Projects\NPD_Automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteName">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteName">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteName">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteName">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteName">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteName">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteName" class="hide-methods passed suite-SuiteName"> (hide)</a> <!-- hide-methods passed suite-SuiteName -->
+                      <a href="#" panel-name="suite-SuiteName" class="show-methods passed suite-SuiteName"> (show)</a> <!-- show-methods passed suite-SuiteName -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteName">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Service_Item" hash-for-method="Add_new_ser_item">Add_new_ser_item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Ser_item_category" hash-for-method="Add_new_ser_item_category">Add_new_ser_item_category</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset_Type" hash-for-method="Addnewassettype">Addnewassettype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset" hash-for-method="Asset_Edit">Asset_Edit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset" hash-for-method="Asset_Insert">Asset_Insert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset" hash-for-method="Asset_delete">Asset_delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset_Type" hash-for-method="DeleteAssettype">DeleteAssettype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Service_Item" hash-for-method="Delete_new_ser_item">Delete_new_ser_item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Ser_item_category" hash-for-method="Delete_new_ser_item_category">Delete_new_ser_item_category</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Customer_menus.Customer" hash-for-method="Deletenewcustomer">Deletenewcustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Job_Menus.Job_list_Edit" hash-for-method="Edit_job_list">Edit_job_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Service_Item" hash-for-method="Edit_new_ser_item">Edit_new_ser_item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Ser_item_category" hash-for-method="Edit_new_ser_item_category">Edit_new_ser_item_category</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset_Type" hash-for-method="Editassettype">Editassettype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Customer_menus.Customer" hash-for-method="Editnewcustomer">Editnewcustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Browser.Login" hash-for-method="NPD_Login">NPD_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset" hash-for-method="OpenAssetmenu">OpenAssetmenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Ser_item_category" hash-for-method="Open_ser_item_menu">Open_ser_item_menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Service_Item" hash-for-method="Open_ser_item_menu">Open_ser_item_menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Customer_menus.Customer" hash-for-method="addnewcustomer">addnewcustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Customer_menus.Customer" hash-for-method="customer_menu">customer_menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Browser.Logout" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="NPD_Master_Menus.Master_Asset_Type" hash-for-method="selectAssettypemenu">selectAssettypemenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="Job_Menus.job_list_Add" hash-for-method="selectJoblist_menu">selectJoblist_menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteName -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteName" class="panel SuiteName">
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Job_Menus.Job_list_Edit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_job_list">
+                  </a> <!-- Edit_job_list -->
+                  <span class="method-name">Edit_job_list</span>
+                  <em>
+(Select job list menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NPD_Master_Menus.Master_Asset_Type</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addnewassettype">
+                  </a> <!-- Addnewassettype -->
+                  <span class="method-name">Addnewassettype</span>
+                  <em>
+(Add new asset type)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteAssettype">
+                  </a> <!-- DeleteAssettype -->
+                  <span class="method-name">DeleteAssettype</span>
+                  <em>
+(Delete Asset)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editassettype">
+                  </a> <!-- Editassettype -->
+                  <span class="method-name">Editassettype</span>
+                  <em>
+(Edit the new asset)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectAssettypemenu">
+                  </a> <!-- selectAssettypemenu -->
+                  <span class="method-name">selectAssettypemenu</span>
+                  <em>
+(Select Asset type menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NPD_Master_Menus.Master_Service_Item</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_new_ser_item">
+                  </a> <!-- Add_new_ser_item -->
+                  <span class="method-name">Add_new_ser_item</span>
+                  <em>
+(Add service item menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_new_ser_item">
+                  </a> <!-- Delete_new_ser_item -->
+                  <span class="method-name">Delete_new_ser_item</span>
+                  <em>
+(Delete service item menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_new_ser_item">
+                  </a> <!-- Edit_new_ser_item -->
+                  <span class="method-name">Edit_new_ser_item</span>
+                  <em>
+(Edit service item menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Open_ser_item_menu">
+                  </a> <!-- Open_ser_item_menu -->
+                  <span class="method-name">Open_ser_item_menu</span>
+                  <em>
+(Select service item menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Browser.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NPD_Login">
+                  </a> <!-- NPD_Login -->
+                  <span class="method-name">NPD_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Job_Menus.job_list_Add</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectJoblist_menu">
+                  </a> <!-- selectJoblist_menu -->
+                  <span class="method-name">selectJoblist_menu</span>
+                  <em>
+(Select job list menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Browser.Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                  <em>
+(Select logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NPD_Master_Menus.Master_Asset</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Asset_Edit">
+                  </a> <!-- Asset_Edit -->
+                  <span class="method-name">Asset_Edit</span>
+                  <em>
+(Edit the new asset)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Asset_Insert">
+                  </a> <!-- Asset_Insert -->
+                  <span class="method-name">Asset_Insert</span>
+                  <em>
+(Adding the new asset)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Asset_delete">
+                  </a> <!-- Asset_delete -->
+                  <span class="method-name">Asset_delete</span>
+                  <em>
+(Delete the new asset)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenAssetmenu">
+                  </a> <!-- OpenAssetmenu -->
+                  <span class="method-name">OpenAssetmenu</span>
+                  <em>
+(Select Asset menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Customer_menus.Customer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deletenewcustomer">
+                  </a> <!-- Deletenewcustomer -->
+                  <span class="method-name">Deletenewcustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editnewcustomer">
+                  </a> <!-- Editnewcustomer -->
+                  <span class="method-name">Editnewcustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnewcustomer">
+                  </a> <!-- addnewcustomer -->
+                  <span class="method-name">addnewcustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customer_menu">
+                  </a> <!-- customer_menu -->
+                  <span class="method-name">customer_menu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NPD_Master_Menus.Master_Ser_item_category</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_new_ser_item_category">
+                  </a> <!-- Add_new_ser_item_category -->
+                  <span class="method-name">Add_new_ser_item_category</span>
+                  <em>
+(Add new service item category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_new_ser_item_category">
+                  </a> <!-- Delete_new_ser_item_category -->
+                  <span class="method-name">Delete_new_ser_item_category</span>
+                  <em>
+(Delete new service item category menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_new_ser_item_category">
+                  </a> <!-- Edit_new_ser_item_category -->
+                  <span class="method-name">Edit_new_ser_item_category</span>
+                  <em>
+(Edit new service item category menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Open_ser_item_menu">
+                  </a> <!-- Open_ser_item_menu -->
+                  <span class="method-name">Open_ser_item_menu</span>
+                  <em>
+(Select service item category menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+        </div> <!-- panel SuiteName -->
+        <div panel-name="test-xml-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Testing Team\Automation_Projects\NPD_Automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SuiteName&quot;&gt;
+  &lt;test name=&quot;GEO4S&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Browser.Browser_open&quot;/&gt;
+      &lt;class name=&quot;Browser.Login&quot;/&gt;
+      &lt;class name=&quot;NPD_Master_Menus.Master_Asset_Type&quot;/&gt;
+      &lt;class name=&quot;NPD_Master_Menus.Master_Asset&quot;/&gt;
+      &lt;class name=&quot;NPD_Master_Menus.Master_Ser_item_category&quot;/&gt;
+      &lt;class name=&quot;NPD_Master_Menus.Master_Service_Item&quot;/&gt;
+      &lt;class name=&quot;Job_Menus.job_list_Add&quot;/&gt;
+      &lt;class name=&quot;Job_Menus.Job_list_Edit&quot;/&gt;
+      &lt;class name=&quot;Customer_menus.Customer&quot;/&gt;
+      &lt;class name=&quot;Browser.Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GEO4S --&gt;
+&lt;/suite&gt; &lt;!-- SuiteName --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GEO4S (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteName');
+function tableData_SuiteName() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Edit_job_list')
+data.setCell(0, 2, 'Job_Menus.Job_list_Edit')
+data.setCell(0, 3, 72917);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'NPD_Login')
+data.setCell(1, 2, 'Browser.Login')
+data.setCell(1, 3, 16138);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Asset_delete')
+data.setCell(2, 2, 'NPD_Master_Menus.Master_Asset')
+data.setCell(2, 3, 12154);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Asset_Edit')
+data.setCell(3, 2, 'NPD_Master_Menus.Master_Asset')
+data.setCell(3, 3, 11375);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'OpenAssetmenu')
+data.setCell(4, 2, 'NPD_Master_Menus.Master_Asset')
+data.setCell(4, 3, 10794);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addnewcustomer')
+data.setCell(5, 2, 'Customer_menus.Customer')
+data.setCell(5, 3, 10123);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Asset_Insert')
+data.setCell(6, 2, 'NPD_Master_Menus.Master_Asset')
+data.setCell(6, 3, 9800);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Delete_new_ser_item_category')
+data.setCell(7, 2, 'NPD_Master_Menus.Master_Ser_item_category')
+data.setCell(7, 3, 8826);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Edit_new_ser_item')
+data.setCell(8, 2, 'NPD_Master_Menus.Master_Service_Item')
+data.setCell(8, 3, 8467);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Add_new_ser_item')
+data.setCell(9, 2, 'NPD_Master_Menus.Master_Service_Item')
+data.setCell(9, 3, 5718);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectJoblist_menu')
+data.setCell(10, 2, 'Job_Menus.job_list_Add')
+data.setCell(10, 3, 5601);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Open_ser_item_menu')
+data.setCell(11, 2, 'NPD_Master_Menus.Master_Ser_item_category')
+data.setCell(11, 3, 5561);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'customer_menu')
+data.setCell(12, 2, 'Customer_menus.Customer')
+data.setCell(12, 3, 5499);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Editnewcustomer')
+data.setCell(13, 2, 'Customer_menus.Customer')
+data.setCell(13, 3, 4780);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Edit_new_ser_item_category')
+data.setCell(14, 2, 'NPD_Master_Menus.Master_Ser_item_category')
+data.setCell(14, 3, 4436);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Open_ser_item_menu')
+data.setCell(15, 2, 'NPD_Master_Menus.Master_Service_Item')
+data.setCell(15, 3, 2640);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Editassettype')
+data.setCell(16, 2, 'NPD_Master_Menus.Master_Asset_Type')
+data.setCell(16, 3, 2500);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Add_new_ser_item_category')
+data.setCell(17, 2, 'NPD_Master_Menus.Master_Ser_item_category')
+data.setCell(17, 3, 2422);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'DeleteAssettype')
+data.setCell(18, 2, 'NPD_Master_Menus.Master_Asset_Type')
+data.setCell(18, 3, 2234);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Addnewassettype')
+data.setCell(19, 2, 'NPD_Master_Menus.Master_Asset_Type')
+data.setCell(19, 3, 1952);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Deletenewcustomer')
+data.setCell(20, 2, 'Customer_menus.Customer')
+data.setCell(20, 3, 1875);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Delete_new_ser_item')
+data.setCell(21, 2, 'NPD_Master_Menus.Master_Service_Item')
+data.setCell(21, 3, 1859);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'logout')
+data.setCell(22, 2, 'Browser.Logout')
+data.setCell(22, 3, 1734);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'selectAssettypemenu')
+data.setCell(23, 2, 'NPD_Master_Menus.Master_Asset_Type')
+data.setCell(23, 3, 1344);
+window.suiteTableData['SuiteName']= { tableData: data, tableDiv: 'times-div-SuiteName'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-SuiteName">
+              </div> <!-- times-div-SuiteName -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Job_Menus.Job_list_Edit</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">NPD_Master_Menus.Master_Asset_Type</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Browser.Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">NPD_Master_Menus.Master_Service_Item</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Job_Menus.job_list_Add</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Browser.Logout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">NPD_Master_Menus.Master_Asset</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">NPD_Master_Menus.Master_Ser_item_category</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Customer_menus.Customer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">check_browser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Browser.Browser_open</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">check_browser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Browser.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NPD_Login</span>
+                <span class="method-start">7224 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NPD_Master_Menus.Master_Asset_Type</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectAssettypemenu</span>
+                <span class="method-start">23362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addnewassettype</span>
+                <span class="method-start">24706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editassettype</span>
+                <span class="method-start">26658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteAssettype</span>
+                <span class="method-start">29158 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NPD_Master_Menus.Master_Asset</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OpenAssetmenu</span>
+                <span class="method-start">31392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Asset_Insert</span>
+                <span class="method-start">42186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Asset_Edit</span>
+                <span class="method-start">51986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Asset_delete</span>
+                <span class="method-start">63361 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NPD_Master_Menus.Master_Ser_item_category</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Open_ser_item_menu</span>
+                <span class="method-start">75515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_new_ser_item_category</span>
+                <span class="method-start">81076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Edit_new_ser_item_category</span>
+                <span class="method-start">83498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Delete_new_ser_item_category</span>
+                <span class="method-start">87934 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NPD_Master_Menus.Master_Service_Item</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Open_ser_item_menu</span>
+                <span class="method-start">96760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_new_ser_item</span>
+                <span class="method-start">99400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Edit_new_ser_item</span>
+                <span class="method-start">105133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Delete_new_ser_item</span>
+                <span class="method-start">113600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Job_Menus.job_list_Add</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectJoblist_menu</span>
+                <span class="method-start">115459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Job_Menus.Job_list_Edit</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Edit_job_list</span>
+                <span class="method-start">121060 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Customer_menus.Customer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">customer_menu</span>
+                <span class="method-start">193977 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addnewcustomer</span>
+                <span class="method-start">199476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editnewcustomer</span>
+                <span class="method-start">209599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deletenewcustomer</span>
+                <span class="method-start">214379 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Browser.Logout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">216254 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Customer_menus.Customer</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">217988 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Browser.Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">218128 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NPD_Master_Menus.Master_Service_Item</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">218160 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

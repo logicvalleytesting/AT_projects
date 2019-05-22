@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteName">
+  <test  name="GEO4S">
+    <classes>
+     <class name="Browser.Browser_open"/>    
+       <class name="Browser.Login"/>
+       
+         <!--Master menus-->
+           <class name="NPD_Master_Menus.Master_Asset_Type"/>
+           <class name="NPD_Master_Menus.Master_Asset"/>
+            <class name="NPD_Master_Menus.Master_Ser_item_category"/>
+             <class name="NPD_Master_Menus.Master_Service_Item"/>
+             
+               <!--Job Menu-->
+              <class name="Job_Menus.job_list_Add"/>
+               <class name="Job_Menus.Job_list_Edit"/>   
+                
+             <!--Customer menu-->
+             <class name="Customer_menus.Customer"/>
+        
+          <!--Customer menu-->
+       <class name="Browser.Logout"/>
+       
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
