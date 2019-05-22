@@ -62,9 +62,9 @@ try {
 				prop.put("mail.smtp.auth", "true");
 		 
 				// set the port of SMTP server
-				prop.put("mail.smtp.port", prop.getProperty("SMTP_Port_num"));
+				prop.put("m", prop.getProperty("SMTP_Port_num"));
 			
-				// This will handle the complete authentication
+				// This will handle the complail.smtp.portete authentication
 				Session session = Session.getDefaultInstance(prop,new javax.mail.Authenticator() {
 					protected PasswordAuthentication getPasswordAuthentication() {
                    return new PasswordAuthentication(prop.getProperty("AT_Username"), prop.getProperty("AT_Password"));
