@@ -50,7 +50,7 @@ public class Browser_open {
 	public static String PLAN_NAME = "NPD_TP"; //Testlink plan name
 	public static String BUILD_NAME = "Geo4s New build";   //Testlink release name
 	public static String result = "";
-	public static String exception = null;
+	public static String exception = null; 
 	public static WebDriverWait wait;
 	public static XSSFSheet sheet1;
 	public static XSSFSheet sheet2;   
