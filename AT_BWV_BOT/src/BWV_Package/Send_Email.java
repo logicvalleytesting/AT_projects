@@ -40,7 +40,6 @@ public class Send_Email extends Get_token{
 		   cal.add(Calendar.DATE, -1);
 		 //  System.out.println("Yesterday's date was "+dateFormat.format(cal.getTime())); 
 		    DT_Yesterday=dateFormat.format(cal.getTime()); 
-
 		}
 	
 	@Test(priority=11)
@@ -71,8 +70,7 @@ try {
                    return new PasswordAuthentication(prop.getProperty("AT_Username"), prop.getProperty("AT_Password"));
 							}
 						});
-				
-		 
+
 				try {
 					
 					// Create object of MimeMessage class
