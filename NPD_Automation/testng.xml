@@ -19,7 +19,7 @@
              <!--Customer menu-->
              <class name="Customer_menus.Customer"/>
         
-          <!--Customer menu-->
+          <!--Customer menu--> 
        <class name="Browser.Logout"/>
        
        
