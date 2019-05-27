@@ -8035,3 +8035,48 @@ Sending 'GET' request to URL : http://192.168.130.185/OptimiseAPIBOT/GetBWVRepor
 2019-05-22 12:59:17,590 [main] INFO BWV_Package.Get_token - BWV-total action records writed in excel sheet
 2019-05-22 12:59:17,708 [main] INFO BWV_Package.Get_token - BWV-All files writed in excel sheet.
 2019-05-22 12:59:19,773 [main] INFO BWV_Package.Get_token - =====>>Email Sent<<=====
+2019-05-22 18:42:05,093 [main] INFO BWV_Package.Get_token - =============================================Execution started at20190522_184205====================================================
+2019-05-22 18:42:15,578 [main] INFO BWV_Package.Get_token - 
+Sending 'POST' request to URL : http://192.168.130.185/token
+2019-05-22 18:42:15,578 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 18:42:15,583 [main] INFO BWV_Package.Get_token - Token generated
+2019-05-22 18:42:16,021 [main] INFO BWV_Package.Get_token - 
+Sending 'GET' request to URL : http://192.168.130.185/OptimiseAPIBOT/GetBWVReportBot
+2019-05-22 18:42:16,021 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 18:42:16,022 [main] INFO BWV_Package.Get_token - BWV API values are received
+2019-05-22 18:42:16,977 [main] INFO BWV_Package.Get_token - Total records API values are writed in excel sheet
+2019-05-22 18:42:16,992 [main] INFO BWV_Package.Get_token - BWV-total count officer wise records writed in excel sheet
+2019-05-22 18:42:17,002 [main] INFO BWV_Package.Get_token - BWV-total count records writed in excel sheet
+2019-05-22 18:42:17,011 [main] INFO BWV_Package.Get_token - BWV-total action records writed in excel sheet
+2019-05-22 18:42:17,344 [main] INFO BWV_Package.Get_token - BWV-All files writed in excel sheet.
+2019-05-22 18:42:21,142 [main] INFO BWV_Package.Get_token - =====>>Email Sent<<=====
+2019-05-22 18:44:32,489 [main] INFO BWV_Package.Get_token - =============================================Execution started at20190522_184432====================================================
+2019-05-22 18:44:32,625 [main] INFO BWV_Package.Get_token - 
+Sending 'POST' request to URL : http://192.168.130.185/token
+2019-05-22 18:44:32,625 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 18:44:32,630 [main] INFO BWV_Package.Get_token - Token generated
+2019-05-22 18:44:32,773 [main] INFO BWV_Package.Get_token - 
+Sending 'GET' request to URL : http://192.168.130.185/OptimiseAPIBOT/GetBWVReportBot
+2019-05-22 18:44:32,774 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-22 18:44:32,778 [main] INFO BWV_Package.Get_token - BWV API values are received
+2019-05-22 18:44:33,042 [main] INFO BWV_Package.Get_token - Total records API values are writed in excel sheet
+2019-05-22 18:44:33,059 [main] INFO BWV_Package.Get_token - BWV-total count officer wise records writed in excel sheet
+2019-05-22 18:44:33,067 [main] INFO BWV_Package.Get_token - BWV-total count records writed in excel sheet
+2019-05-22 18:44:33,074 [main] INFO BWV_Package.Get_token - BWV-total action records writed in excel sheet
+2019-05-22 18:44:33,200 [main] INFO BWV_Package.Get_token - BWV-All files writed in excel sheet.
+2019-05-22 18:44:34,949 [main] INFO BWV_Package.Get_token - =====>>Email Sent<<=====
+2019-05-23 12:20:12,363 [main] INFO BWV_Package.Get_token - =============================================Execution started at20190523_122012====================================================
+2019-05-23 12:20:18,506 [main] INFO BWV_Package.Get_token - 
+Sending 'POST' request to URL : http://192.168.130.185/token
+2019-05-23 12:20:18,507 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-23 12:20:18,513 [main] INFO BWV_Package.Get_token - Token generated
+2019-05-23 12:20:19,836 [main] INFO BWV_Package.Get_token - 
+Sending 'GET' request to URL : http://192.168.130.185/OptimiseAPIBOT/GetBWVReportBot
+2019-05-23 12:20:19,838 [main] INFO BWV_Package.Get_token - Response Code : 200
+2019-05-23 12:20:19,842 [main] INFO BWV_Package.Get_token - BWV API values are received
+2019-05-23 12:20:20,718 [main] INFO BWV_Package.Get_token - Total records API values are writed in excel sheet
+2019-05-23 12:20:20,735 [main] INFO BWV_Package.Get_token - BWV-total count officer wise records writed in excel sheet
+2019-05-23 12:20:20,745 [main] INFO BWV_Package.Get_token - BWV-total count records writed in excel sheet
+2019-05-23 12:20:20,752 [main] INFO BWV_Package.Get_token - BWV-total action records writed in excel sheet
+2019-05-23 12:20:20,975 [main] INFO BWV_Package.Get_token - BWV-All files writed in excel sheet.
+2019-05-23 12:20:23,776 [main] INFO BWV_Package.Get_token - =====>>Email Sent<<=====

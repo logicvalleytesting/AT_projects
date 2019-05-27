@@ -95,7 +95,8 @@ try {
 						// Set the body of email
 						messageBodyPart1.setText("Hi,\r\n" + 
 								"   \r\n" + 
-								" Please find the attached document for Bwv Reports on "+ DT_Yesterday+".");
+								" Please find the attached document for Bwv Reports on "+ DT_Yesterday+"."
+								);
 			 
 						// Create another object to add another content
 						MimeBodyPart messageBodyPart2 = new MimeBodyPart();

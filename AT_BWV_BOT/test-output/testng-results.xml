@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2891" started-at="2019-05-22T12:59:16Z" finished-at="2019-05-22T12:59:19Z">
+  <suite name="Suite" duration-ms="11693" started-at="2019-05-23T12:20:12Z" finished-at="2019-05-23T12:20:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2891" started-at="2019-05-22T12:59:16Z" finished-at="2019-05-22T12:59:19Z">
+    <test name="Test" duration-ms="11693" started-at="2019-05-23T12:20:12Z" finished-at="2019-05-23T12:20:23Z">
       <class name="BWV_Package.Get_token">
-        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="139" started-at="2019-05-22T12:59:16Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="161" started-at="2019-05-23T12:20:12Z" finished-at="2019-05-23T12:20:12Z">
         </test-method>
       </class>
       <class name="BWV_Package.Send_Email">
-        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="6" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="35" started-at="2019-05-23T12:20:12Z" finished-at="2019-05-23T12:20:12Z">
         </test-method>
-        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="1" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="2" started-at="2019-05-23T12:20:12Z" finished-at="2019-05-23T12:20:12Z">
         </test-method>
-        <test-method status="PASS" signature="get_results()" name="get_results" duration-ms="1" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="get_results()" name="get_results" duration-ms="1" started-at="2019-05-23T12:20:20Z" finished-at="2019-05-23T12:20:20Z">
         </test-method>
-        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="225" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="342" started-at="2019-05-23T12:20:20Z" finished-at="2019-05-23T12:20:21Z">
         </test-method>
-        <test-method status="PASS" signature="mail_configuration()" name="mail_configuration" duration-ms="1839" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:19Z">
+        <test-method status="PASS" signature="mail_configuration()" name="mail_configuration" duration-ms="2459" started-at="2019-05-23T12:20:21Z" finished-at="2019-05-23T12:20:23Z">
         </test-method>
-        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="54" started-at="2019-05-22T12:59:19Z" finished-at="2019-05-22T12:59:19Z">
+        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="56" started-at="2019-05-23T12:20:23Z" finished-at="2019-05-23T12:20:23Z">
         </test-method>
       </class>
       <class name="BWV_Package.Report_generate">
-        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="8" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="8" started-at="2019-05-23T12:20:12Z" finished-at="2019-05-23T12:20:12Z">
         </test-method>
-        <test-method status="PASS" signature="Generate_Token()" name="Generate_Token" duration-ms="43" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Generate_Token()" name="Generate_Token" duration-ms="6168" started-at="2019-05-23T12:20:12Z" finished-at="2019-05-23T12:20:18Z">
         </test-method>
-        <test-method status="PASS" signature="Get_values()" name="Get_values" duration-ms="142" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Get_values()" name="Get_values" duration-ms="1312" started-at="2019-05-23T12:20:18Z" finished-at="2019-05-23T12:20:19Z">
         </test-method>
-        <test-method status="PASS" signature="Write_Totrecords()" name="Write_Totrecords" duration-ms="271" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Write_Totrecords()" name="Write_Totrecords" duration-ms="872" started-at="2019-05-23T12:20:19Z" finished-at="2019-05-23T12:20:20Z">
         </test-method>
-        <test-method status="PASS" signature="Write_Tot_Cont_off_wise()" name="Write_Tot_Cont_off_wise" duration-ms="11" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Write_Tot_Cont_off_wise()" name="Write_Tot_Cont_off_wise" duration-ms="16" started-at="2019-05-23T12:20:20Z" finished-at="2019-05-23T12:20:20Z">
         </test-method>
-        <test-method status="PASS" signature="Write_Totalcount()" name="Write_Totalcount" duration-ms="7" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Write_Totalcount()" name="Write_Totalcount" duration-ms="9" started-at="2019-05-23T12:20:20Z" finished-at="2019-05-23T12:20:20Z">
         </test-method>
-        <test-method status="PASS" signature="Write_Totalaction()" name="Write_Totalaction" duration-ms="5" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Write_Totalaction()" name="Write_Totalaction" duration-ms="5" started-at="2019-05-23T12:20:20Z" finished-at="2019-05-23T12:20:20Z">
         </test-method>
-        <test-method status="PASS" signature="Write_allfiles()" name="Write_allfiles" duration-ms="117" started-at="2019-05-22T12:59:17Z" finished-at="2019-05-22T12:59:17Z">
+        <test-method status="PASS" signature="Write_allfiles()" name="Write_allfiles" duration-ms="222" started-at="2019-05-23T12:20:20Z" finished-at="2019-05-23T12:20:20Z">
         </test-method>
       </class>
     </test>
